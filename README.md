@@ -68,8 +68,7 @@ public class EmailController : ControllerBase
     }
 
     [HttpPost("send")]
-    public async Task<IActionResult> SendEmailAsync(
-        CancellationToken ct)
+    public async Task<IActionResult> SendEmailAsync(CancellationToken ct)
     {
         var to = new List<Recipient>()
         {
