@@ -54,3 +54,41 @@ public class Startup
     }
 }
 ```
+
+## Dependency injection
+
+```csharp
+public class EmailController : ControllerBase
+{
+    private readonly MailerSendService _mailerSend;
+
+    public EmailController(MailerSendService mailerSend)
+    {
+        _mailerSend = mailerSend;
+    }
+
+    [HttpPost("send")]
+    public async Task<IActionResult> SendEmailAsync(
+        CancellationToken ct)
+    {
+        var to = new List<Recipient>()
+        {
+            new Recipient()
+            {
+                Email = "user@domain.com",
+                Name = "User",
+                Substitutions = new Dictionary<string, string>()
+                {
+                    { "var1", "value1"},
+                    { "var2", "value2"}
+                }
+            }
+        };
+
+        await _mailerSend.SendMailAsync(
+            to, subject: "subject", text: "Test text", cancellationToken: ct);
+
+        return Ok();
+    }
+}
+```
