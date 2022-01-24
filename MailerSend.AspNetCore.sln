@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailerSend.AspNetCore", "src\MailerSend.AspNetCore\MailerSend.AspNetCore.csproj", "{6C4B8099-D2B1-48C6-9476-6A0143CA210B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FFD384C3-802A-426E-9429-72B689420AD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C4B8099-D2B1-48C6-9476-6A0143CA210B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C4B8099-D2B1-48C6-9476-6A0143CA210B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C4B8099-D2B1-48C6-9476-6A0143CA210B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C4B8099-D2B1-48C6-9476-6A0143CA210B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6C4B8099-D2B1-48C6-9476-6A0143CA210B} = {FFD384C3-802A-426E-9429-72B689420AD0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F3C42C8-EA6B-46D1-B238-58D52A55BFF6}
+	EndGlobalSection
+EndGlobal
