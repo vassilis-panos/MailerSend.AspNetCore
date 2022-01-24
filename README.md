@@ -37,7 +37,7 @@ public class Startup
 {
   "MailerSend": {
     "ApiToken": "API-TOKEN",
-    ""SenderEmail": "mail@domain.com",
+    "SenderEmail": "mail@domain.com",
     "SenderName": "MailerSend"
   }
 }
