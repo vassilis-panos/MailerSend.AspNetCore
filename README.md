@@ -1,4 +1,4 @@
-# ErrLogIO.AspNetCore [![NuGet](https://img.shields.io/nuget/v/MailerSend.AspNetCore.svg)](https://www.nuget.org/packages/MailerSend.AspNetCore)
+# MailerSend.AspNetCore [![NuGet](https://img.shields.io/nuget/v/MailerSend.AspNetCore.svg)](https://www.nuget.org/packages/MailerSend.AspNetCore)
 
 ASP.NET Core library for [MailerSend](https://www.mailersend.com/)
 
