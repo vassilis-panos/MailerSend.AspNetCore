@@ -13,7 +13,7 @@
 		<PackageId>MailerSend.AspNetCore</PackageId>
 		<AssemblyName>MailerSend.AspNetCore</AssemblyName>
 		<RootNamespace>MailerSend.AspNetCore</RootNamespace>
-		<Product>ErrLogIO.AspNetCore</Product>
+		<Product>MailerSend.AspNetCore</Product>
 		<Company />
 		<LangVersion>latest</LangVersion>
 		<Nullable>enable</Nullable>
